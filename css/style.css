@@ -203,6 +203,11 @@ h1, h2, h3, h4, h5,
   .display-1, .display-3 {
     font-size: 3rem; } }
 
+.sticky-logo {
+    max-width: 90%;
+    max-height:auto;
+}
+    
 .play-single-big {
   width: 90px;
   height: 90px;
@@ -529,6 +534,7 @@ h1, h2, h3, h4, h5,
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
 
+
 .sticky-wrapper {
   position: absolute;
   z-index: 100;
@@ -541,10 +547,6 @@ h1, h2, h3, h4, h5,
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #fff;}
-img {
-    max-width: 100%;
-    height:auto;
-}
 
 
     .sticky-wrapper .site-navbar ul li a {
