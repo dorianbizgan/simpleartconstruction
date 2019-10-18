@@ -917,6 +917,10 @@ h1, h2, h3, h4, h5,
   padding: 0;
   margin: 0; }
 
+.tiles_1 {
+    max-width:80%;
+    max-height:auto;
+}
 .block-25 ul li a .image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 90px;

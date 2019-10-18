@@ -53,7 +53,7 @@
 
         //update height in case of dynamic content
         s.stickyWrapper.css('height', s.stickyElement.outerHeight());
-
+ 
         if (scrollTop <= etse) {
             
           if (s.currentTop !== null) {
@@ -67,13 +67,13 @@
             s.stickyElement.parent().removeClass(s.className);
             s.stickyElement.trigger('sticky-end', [s]);
             s.currentTop = null;
-            $('#sticky-logo').attr("src","images/simple%20art%20construction-logo-white.png");
+            $('#sticky-logo').attr("src","images/small_images/SAC_WHITE.png");
             $('#text-black').toggleClass('#text-white');
           }
         }
         else {
         $('#text-white').toggleClass('#text-black');
-        $('#sticky-logo').attr("src","images/simple%20art%20construction-logo.png");
+        $('#sticky-logo').attr("src","images/small_images/sac_black_clean.png");
           var newTop = documentHeight - s.stickyElement.outerHeight()
             - s.topSpacing - s.bottomSpacing - scrollTop - extra;
           if (newTop < 0) {
